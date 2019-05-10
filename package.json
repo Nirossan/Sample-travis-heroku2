@@ -1,0 +1,33 @@
+{
+  "name": "travis02",
+  "version": "1.0.0",
+  "description": "repo using heroku and travis ",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint server.js && mocha ./tests/index-spec.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirossan/Sample-travis-heroku2.git"
+  },
+  "keywords": [
+    "git",
+    "heroku",
+    "travis",
+    "continous",
+    "integration"
+  ],
+  "author": "Nirossan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nirossan/Sample-travis-heroku2/issues"
+  },
+  "homepage": "https://github.com/Nirossan/Sample-travis-heroku2#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "express": "^4.16.4",
+    "mocha": "^6.1.4"
+  }
+}
