@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-  - "stable"
-npm: true
-cache:
-  directories:
-    - "node_modules"
+- stable
+- '6'
+- '4'
 deploy:
   provider: heroku
   api_key:
-  secure: "3Y1ZXsh1noWelqwrPvDqwaVUAiN1bEtFz0BiAHCXjXkzJV2dx7HfA+EHparuT3IyXrBVQaDezCv4IIhh5+t+4c1Bd7wOinJJ5dHBJOhkH+jz2EnvNGamptaRNKrtS8fzyTMLnlLoB7X+Zsc36YUTnqiKpX0rfYKJv5lFaMDQByPPCM37PQLM9U0m3a23brqFVoymjrxy+kTmXnuo+Gf3WTMdIGUE2PMzL9THZWL0a6WpU3aW1R7JGNEcrb8qMJ83ctm9eblMZzs01uSaAZ+KzTBIBEsIQ00oCKmbpthrvVPwhqGVrRbAgfXdmHYWktM61/cb2svlLKIPgdROKyUtCuK1NKcr4h3JNW58X0NAhSiMe4viD79WbfA7Fb2SZ4dRfFswW4OWVHSWtVPeE2GPklrla1rf/v4zOE/beU0W/IUyJwJXrs1//suJx31aHWcKdG7yDiMIHkOJawluSiFnUTDiLgBtho5/zgLEFL1HLgjM+qS3pJ5WTj+k9wMYu0ZFTgq4wFtzJaLCxPqIi/gwWj5yeAY6p+Ie3bCywarWmaMS2JfX9Z73nJBl54PHAVptcnZoFLP9oSI7YU1XF+jWrSPNtKPfuSuz3uSyQg4P17zQ8Y4Hg+80OBKr+FTm8dSdS4fSwAnrT84YOIHX274ByVYUouADL+GYG2JGgRfD4zE="
-
+    secure: 38+qGQIfq/6Rv7cmD4okZz/iBUrqQfmBtyseXzsf/71knQAlsAb3fXSz8VOrDk59rWzTamEgpK4zmwQgtmCppMIHBJzOeUoZUn3nP8jD1/Ca/IAGT8VU0/x1xhURQT5kjpSdYIKyBo9ITZnWo/hUJf+djJ/xz2WtlnxdOBOkv9z7wfZAAG59sHJ5H2SwuEy4YewwxQLy0UYZ5wChQ6H3KKHBi/YuJmKkIWe+8bB7LJ9CuDxjfjvflAKw1kfTc71qU+bOACT+EdAqP1w8S2zHDx3zNTB8elhhDZPy47rFhPp1dyUPHIx/KCjbsir5/dmAxLjiVlYYk8/x99Kr4QsNRa1zb4qa59dZaAiI0MhKKwE+x3oRASQNbK8fo/VkzFPThaxMyF2HRCDAuSYV8pnEnE2kDuTamZ/MmaAXA4YTr2FmCZ75CuKj328Gaw5p38UY/goM1WJzprKk/hplqJogSBvlgbkbO00HTmeZkR8DDfywhb1MAK2ehbbNwbn/dh/y3147UTUFBkTfNCnpJSVaCb6LpMkdO3BiuW4KtOnatW6UtAv+O9C4Q/ANhPe1w5T8kYGpGvYz/kfbI/0onvJ0ggTZI8pe35xpkcLWfm/1XFDGsxX/2HvQ0q/Wbze56WK1n0NhKyTJQZfwhDuFX+mqILQk0VwblYt6P4MHdu3v3cc=
+  app: Sample-travis-heroku2
+  on:
+    repo: Nirossan/Sample-travis-heroku2
 
