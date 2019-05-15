@@ -10,3 +10,4 @@ deploy:
   app: Sample-travis-heroku2
   on:
     repo: Nirossan/Sample-travis-heroku2
+
